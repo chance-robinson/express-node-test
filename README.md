@@ -40,8 +40,13 @@ Make sure Node.js is installed (version 18.6).
     node .
     ```
 
+5. For unit tests, run 
+
+    ```bash
+    npm test
+    ```
+
 ## Roadmap
 
 - Move static tasks to a separate file (e.g., `.txt`) to decouple dependencies in `taskControllers.js`.
-- Add unit testing using Jest and superjest.
 - Dockerize the project to eliminate the need for a specific Node.js version.
